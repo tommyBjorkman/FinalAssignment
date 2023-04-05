@@ -10,7 +10,7 @@
         public string Description { get; set; } = null!;
         public DateTime Created { get; set; } = DateTime.Now;
         public DateTime Updated { get; set; } = DateTime.Now;
-        public int StatusId { get; set; }
+        public int StatusId { get; set; } = 1;
         public StatusEntity Status { get; set; } = null!;
         public int UserID { get; set; }
         public UserEntity User { get; set; } = null!;
